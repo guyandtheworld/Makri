@@ -1,0 +1,33 @@
+                    
+-----------------------------------                    
+
+Domain: Books                    
+
+Paper: Mathrubhumi                    
+
+-----------------------------------                 
+
+ഇന്ന് ലോക നാടകദിനം.
+
+ ഇടപ്പിള്ളി ചങ്ങമ്പുഴ സാംസ്‌കാരിക കേന്ദ്രം അവതരിപ്പിച്ച സി.എന്‍.ശ്രീകണ്ഠന്‍ നായരുടെ 'ലങ്കാലക്ഷ്മി'നാടകവായന കേള്‍ക്കാം.
+ 
+
+
+jwplayer.key="VcY9l23d7ow81m/0k2m+4SXJv3pDC3k5mGUEOg=="
+
+
+            jwplayer("my-audio1827938").setup({
+                file: "http://mbaudio.s3.amazonaws.com/audio/20170327T054913Z_LANKALAKSHMI Natakavaayana _02.MP3",
+                                                             image:"/polopoly_fs/1.1827944.1490593313./image/image.jpg_gen/derivatives/landscape_640_350/image.jpg",
+                                                     height: "540",
+                width: "100%",
+                primary: "html5"/*,
+         advertising: {
+          client: "googima",
+          schedule: {"myAds":{"offset":"pre","tag":"https://pubads.g.doubleclick.net/gampad/ads.sz=640x480&iu=/1120978/640x480_MbPortal_PrerollE1&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"}}
+          schedule: {"myAds":{"offset":"pre","tag":"https://pubads.g.doubleclick.net/gampad/ads.sz=640x480&iu=/1120978/640x480_MbPortal_PrerollM1&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"}}
+          }*/
+            });
+        
+.jwplayer.jw-flag-rightclick-open {
+            overflow: hidden.

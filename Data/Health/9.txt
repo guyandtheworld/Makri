@@ -1,0 +1,21 @@
+                    
+-----------------------------------                    
+
+Domain: Health                    
+
+Paper: Mathrubhumi                    
+
+-----------------------------------                 
+
+കൊച്ചി: ലോക രക്തദാന ദിനത്തില്‍ ബ്ലഡ് ബാങ്ക് മെഡിക്കല്‍ ഓഫീസര്‍ ഡോ.എബ്രഹാം വര്‍ഗീസ് മാതൃഭൂമി.കോം ഫെയിസ്ബുക്ക് ലൈവില്‍ വരുന്നു.
+പ്രേക്ഷകര്‍ക്ക് രക്തദാനത്തെ കുറിച്ചുള്ള സംശയങ്ങള്‍ക്ക് ഡോക്ടര്‍ മറുപടി നല്‍കും.
+
+ രാവിലെ പത്ത് മണിക്കാണ് പരിപാടി
+
+ 
+(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.

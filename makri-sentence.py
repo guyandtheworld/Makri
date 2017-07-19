@@ -35,7 +35,7 @@ class MakriSpider(scrapy.Spider):
         urls = []
         with open("test.txt", "rb") as fp:
             urls = pickle.load(fp)
-        for url in urls[:1]:
+        for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
