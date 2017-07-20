@@ -62,6 +62,6 @@ class MakriSpider(scrapy.Spider):
             post = ""
             for i, sentence in enumerate(sentences):
                 if sentences[i+1][0] == " ":
-                    fp.write(sentence+".\n\n")
+                    fp.write(sentence+" .\n\n")
                 else:
-                    fp.write(sentence+".")
+                    fp.write(sentence+" .")

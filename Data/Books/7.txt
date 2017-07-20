@@ -7,30 +7,6 @@ Paper: Mathrubhumi
 
 -----------------------------------                 
 
-മഹാനും പ്രശസ്തനും സര്‍വോപരി ജനസമ്മതനുമായ ഒരു ചിന്തകന്‍ തന്റെ ചെറുമകന് ഒരു പേരിട്ടു.
+കുട്ടികളെല്ലാം അസംബ്ലിയില്‍ നിരന്ന് അറ്റന്‍ഷനായി നില്‍ക്കുമ്പോഴായിരുന്നു ഒരദ്ഭുതംപോലെ, ഒരുകൂട്ടം മയിലുകള്‍ സ്‌കൂള്‍ കെട്ടിടത്തിന്റെ തെക്കേയരികിലേക്ക് പറന്നുവന്നിറങ്ങിയത് .
 
- മനുഷ്യകുലത്തില്‍ പരസ്പര സ്പര്‍ധ ഇല്ലാതാക്കുക എന്നത് തന്റെ ജീവിതലക്ഷ്യമായി കൊണ്ടാടിയിരുന്ന ആളായിരുന്നതുകൊണ്ടും മതത്തിലേക്കും ജാതിയിലേക്കും ഇസങ്ങളിലേക്കുമല്ല, മറിച്ച് പ്രകൃതിയിലേക്കാണ് മനുഷ്യന്‍ തിരിച്ചുപോകേണ്ടതെന്ന് വിശ്വസിച്ച് വശായിരുന്നകൊണ്ടും ആ മാന്യദ്ദേഹം തന്റെ ചെറുമകന്  പച്ചക്കുതിര എന്ന് നാമമേകി.
-ഒരു ചിന്തകന്‍ തന്റെ ചെറുമകന് നല്‍കുന്ന പേര് വരുത്തുന്ന വിനകള്‍ ആക്ഷേപ ഹാസ്യരൂപത്തില്‍ അവതരിപ്പിക്കുന്ന മുരളി ഗോപിയുടെ കഥയാണ് നാമകരണം.
-
- കഥ കേള്‍ക്കാം കഥാകൃത്തിന്റെ ശബ്ദത്തില്‍.
-'മുരളി ഗോപിയുടെ കഥകൾ' വാങ്ങാം
-
-
-jwplayer.key="VcY9l23d7ow81m/0k2m+4SXJv3pDC3k5mGUEOg=="
-
-
-            jwplayer("my-audio1656558").setup({
-                file: "http://mbaudio.s3.amazonaws.com/audio/20170115T063548Z_story.mp3",
-                                                             image:"/polopoly_fs/1.1658943.1484553368./image/image.jpg_gen/derivatives/landscape_640_350/image.jpg",
-                                                     height: "540",
-                width: "100%",
-                primary: "html5"/*,
-         advertising: {
-          client: "googima",
-          schedule: {"myAds":{"offset":"pre","tag":"https://pubads.g.doubleclick.net/gampad/ads.sz=640x480&iu=/1120978/640x480_MbPortal_PrerollE1&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"}}
-          schedule: {"myAds":{"offset":"pre","tag":"https://pubads.g.doubleclick.net/gampad/ads.sz=640x480&iu=/1120978/640x480_MbPortal_PrerollM1&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"}}
-          }*/
-            });
-        
-.jwplayer.jw-flag-rightclick-open {
-            overflow: hidden.
+ കണ്‍കോണുകളിലൂടെ കണ്ട ആ അതിശയക്കാഴ്ചയില്‍ പൊടുന്നനെ  ഉള്ളില്‍ത്തുളുമ്പിയ ആഹ്ലാദം ആര്‍ത്തുവിളിച്ച് പങ്കിടാനാകാതെ കുട്ടികള്‍ കുഴങ്ങി .

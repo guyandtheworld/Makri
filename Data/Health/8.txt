@@ -7,17 +7,15 @@ Paper: Mathrubhumi
 
 -----------------------------------                 
 
-ദന്ത സൗന്ദര്യംവര്‍ധിപ്പിക്കുന്നതിനും ചികിത്സയ്ക്കുമുള്ള നൂതന മാര്‍ഗങ്ങളെക്കുറിച്ച് ഡോ.
+കൊച്ചി: ലോക രക്തദാന ദിനത്തില്‍ ബ്ലഡ് ബാങ്ക് മെഡിക്കല്‍ ഓഫീസര്‍ ഡോ .എബ്രഹാം വര്‍ഗീസ് മാതൃഭൂമി .കോം ഫെയിസ്ബുക്ക് ലൈവില്‍ വരുന്നു .
+പ്രേക്ഷകര്‍ക്ക് രക്തദാനത്തെ കുറിച്ചുള്ള സംശയങ്ങള്‍ക്ക് ഡോക്ടര്‍ മറുപടി നല്‍കും .
 
- തോമസ് നെച്ചുപ്പാടം വായനക്കാരുമായി സംവദിക്കുന്നു. 
-മാതൃഭൂമി ഡോട്ട് കോമിന്റെ ഫേസ്ബുക്ക് ലൈവിലൂടെ ഡോക്ടര്‍ ചോദ്യങ്ങള്‍ക്ക് മറുപടി നല്‍കുന്നു.
-
- വീഡിയോ കാണുക.
+ രാവിലെ പത്ത് മണിക്കാണ് പരിപാടി
 
  
 (function(d, s, id) {
- var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-    fjs.parentNode.
+ var js, fjs = d .getElementsByTagName(s)[0];
+    if (d .getElementById(id)) return;
+    js = d .createElement(s); js .id = id;
+    js .src = "//connect .facebook .net/en_US/sdk .js#xfbml=1&version=v2 .6";
+    fjs .parentNode .
