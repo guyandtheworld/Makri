@@ -5,16 +5,16 @@
 import scrapy
 import pickle
 import json
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, SoupStrainer
 
 
 class MakriSpider(scrapy.Spider):
     name = "makri_spider"
     urls = [
-        'http://www.manoramaonline.com/news.html',
         'http://www.manoramaonline.com/movies.html',
         'http://www.manoramaonline.com/technology.html',
         'http://www.manoramaonline.com/sports.html',
+        'http://www.manoramaonline.com/news.html',
         'http://www.manoramaonline.com/style.html',
         'http://www.manoramaonline.com/astrology.html',
         'http://www.manoramaonline.com/health.html',
@@ -38,5 +38,8 @@ class MakriSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        soup = BeautifulSoup(response.body, "lxml")
-        print(soup)
+        soup = BeautifulSoup(response.body,"lxml")
+        links = soup.findAll("div", {"class": "storylistingclass"})
+        print(links)
+        # for link in links.find_all('a', href=True):
+        #     print(link['href'])
