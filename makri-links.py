@@ -11,23 +11,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 class MakriSpider(scrapy.Spider):
     name = "makri_spider"
     urls = [
-        'http://www.manoramaonline.com/movies.html',
-        'http://www.manoramaonline.com/technology.html',
-        'http://www.manoramaonline.com/sports.html',
-        'http://www.manoramaonline.com/news.html',
-        'http://www.manoramaonline.com/style.html',
-        'http://www.manoramaonline.com/astrology.html',
-        'http://www.manoramaonline.com/health.html',
-        'http://www.manoramaonline.com/fasttrack.html',
-        'http://www.manoramaonline.com/music.html',
-        'http://www.manoramaonline.com/women.html',
-        'http://www.manoramaonline.com/homestyle.html',
-        'http://www.manoramaonline.com/environment.html',
-        'http://www.manoramaonline.com/travel.html',
-        'http://www.manoramaonline.com/children.html',
-        'http://www.manoramaonline.com/literature.html',
-        'http://www.manoramaonline.com/education.html',
-        'http://www.manoramaonline.com/karshakasree.html',
+        'http://www.deshabhimani.com/news/national',
     ]
 
     def start_requests(self):
@@ -39,7 +23,6 @@ class MakriSpider(scrapy.Spider):
 
     def parse(self, response):
         soup = BeautifulSoup(response.body,"lxml")
-        links = soup.findAll("div", {"class": "storylistingclass"})
-        print(links)
-        # for link in links.find_all('a', href=True):
-        #     print(link['href'])
+        links1 = soup.findAll("div", {"class": "lead-news"})
+        links2 = soup.findAll("div", {"class": "db-bx"})
+        print(links2)
