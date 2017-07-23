@@ -42,7 +42,7 @@ class MakriSpider(scrapy.Spider):
     def start_requests(self):
         with open("test1.txt", "wb") as fp:
             pickle.dump([], fp)
-        for url in self.urls[:3]:
+        for url in self.urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):

@@ -15,11 +15,11 @@ import scrapy
 class MakriSpider(scrapy.Spider):
     name = "makri_spider"
 
-    DIRECTORY = 'Data/{}/'
+    DIRECTORY = 'Test/{}/'
 
     def article_category(self):
-        div = self.soup.findAll("div", {"class": "col-md-2 col-sm-2 col-xs-12"})[0]
-        a = div.findAll("a")[0].text
+        div = self.soup.findAll("div", {"class": "breadcrumb"})[0]
+        a = div.findAll("a")[1].text
         return a
 
     def check_directory(self):
@@ -29,11 +29,11 @@ class MakriSpider(scrapy.Spider):
         return folder
 
     def article_body(self):
-        return self.soup.select(".articleBody")[0]
+        return self.soup.select(".story")[0]
 
     def start_requests(self):
         urls = []
-        with open("test.txt", "rb") as fp:
+        with open("test1.txt", "rb") as fp:
             urls = pickle.load(fp)
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
@@ -55,13 +55,13 @@ class MakriSpider(scrapy.Spider):
                     \n\nDomain: {}\
                     \n\nPaper: {}\
                     \n\n-----------------------------------\
-                 """.format(self.category, "Mathrubhumi")
+                 """.format(self.category, "Deshabhimani")
 
         with open(DIR, "a") as fp:
             fp.write(prefix)
             post = ""
             for i, sentence in enumerate(sentences):
-                if sentences[i+1][0] == " ":
+                if sentences[i+1][0] == " " and i is not len(sentences)-1:
                     fp.write(sentence+" .\n\n")
                 else:
                     fp.write(sentence+" .")
