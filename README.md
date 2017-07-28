@@ -1,6 +1,6 @@
 # Makri - Malayalam Knowledge Ripper
 
-A highly efficient data scraper with over 40,000 lines of malayalam data, 
+A highly efficient data scraper with over 80,000 lines of malayalam data, 
 which are POS tagged using a SVM algorithm for the creation of database of 
 POS tagged lines for the use in Malayalam research and for Scholars.
 
@@ -16,4 +16,4 @@ websites and write into files which are divided by category.
 
 The classification algorithm is made using nltk module in python\
 
-A project by Adarsh S and Jithin James under the supervision of ICFOSS.
+A project by Adarsh S and Jithin James under the supervision of ICFOSS under the supervision of Dr. Rajeev RR
