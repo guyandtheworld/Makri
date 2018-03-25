@@ -26,10 +26,14 @@ The sevice also has a web end-point to use in other applications.
 
 ## FOSSASIA
 [Slides](https://docs.google.com/presentation/d/1A1n1HqGkXPgyarPUB91tb208IGt2KuKqj5umgUCw5Uw/edit?usp=sharing)
-[Blark]()
-[Language Resource Classification]()
-[Language Statistics Data]()
-[Tamil NLP creator and talk mentor]()
+
+[Blark](http://www.elsnet.org/dox/krauwer-specom2003.pdf)
+
+[Language Resource Classification](http://ixa.si.ehu.es/sites/default/files/dokumentuak/3855/LEIPZIG_2014_Sarasola.pdf)
+
+[Language Statistics Data](https://economictimes.indiatimes.com/tech/internet/how-online-vernacular-market-is-becoming-the-big-battle-ground-for-tech-cos/articleshow/63248994.cms)
+
+[Tamil NLP creator and talk mentor](https://github.com/AshokR/)
 
 ## Team Members
 
