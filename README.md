@@ -10,18 +10,6 @@ websites and write into files which are divided by category.
 
 A project by Adarsh S and Jithin James under the supervision of ICFOSS under the supervision of Dr. Rajeev RR
 
-## Web App
-
-A Django based web app is built to distribute the service.
-The development server can be accessed via
-<code>python2 manage.py runserver</code>
-
-The web app has an input text option for live data tagging, an upload file option to tag text files.
-
-The sevice also has a web end-point to use in other applications.
-
-<code>curl -G -v  "http://127.0.0.1:8000/" --data-urlencode "q=input" </code> will return the tagged data for the given input.
-
 ## FOSSASIA Talk
 
 [Slides](https://docs.google.com/presentation/d/1A1n1HqGkXPgyarPUB91tb208IGt2KuKqj5umgUCw5Uw/edit?usp=sharing)
@@ -33,6 +21,18 @@ The sevice also has a web end-point to use in other applications.
 [Language Statistics Data](https://economictimes.indiatimes.com/tech/internet/how-online-vernacular-market-is-becoming-the-big-battle-ground-for-tech-cos/articleshow/63248994.cms)
 
 [Tamil NLP creator and talk mentor](https://github.com/AshokR/)
+
+## Web App
+
+A Django based web app is built to distribute the service.
+The development server can be accessed via
+<code>python2 manage.py runserver</code>
+
+The web app has an input text option for live data tagging, an upload file option to tag text files.
+
+The sevice also has a web end-point to use in other applications.
+
+<code>curl -G -v  "http://127.0.0.1:8000/" --data-urlencode "q=input" </code> will return the tagged data for the given input.
 
 ## Team Members
 
