@@ -13,7 +13,7 @@ websites and write into files which are divided by category.
 
 A project by Adarsh S and Jithin James under the supervision of ICFOSS under the supervision of Dr. Rajeev RR
 
-# Web App
+## Web App
 A Django based web app is built to distribute the service.
 The development server can be accessed via
 <code>python2 manage.py runserver</code>
@@ -24,7 +24,14 @@ The sevice also has a web end-point to use in other applications.
 
 <code>curl -G -v  "http://127.0.0.1:8000/" --data-urlencode "q=input" </code> will return the tagged data for the given input.
 
-# Team Members
+## FOSSASIA
+[Slides](https://docs.google.com/presentation/d/1A1n1HqGkXPgyarPUB91tb208IGt2KuKqj5umgUCw5Uw/edit?usp=sharing)
+[Blark]()
+[Language Resource Classification]()
+[Language Statistics Data]()
+[Tamil NLP creator and talk mentor]()
+
+## Team Members
 
 @isht3, @jjmachan -- creators of the project
 @abinmn -- deployable web app creator
